@@ -14,6 +14,7 @@ body {
 .grid img {
     width: 200px;
     height: 200px;
+    cursor: pointer;
 }
 
 #lightbox {
@@ -30,4 +31,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+    background-color: black;
+    border: 2px solid white;
 }
